@@ -19,7 +19,8 @@ Use an attack map to visualize attacks
                               ▼
         ┌────────────────────────────────────┐
         │ Azure VM (Honeypot / Attack Surface)│
-        │ - Virtual machine with all inbound traffic allowed      |         
+        │ - Virtual machine with all inbound 
+           traffic allowed                   |         
         └────────────────────────────────────┘
                               │
                               ▼
@@ -37,8 +38,8 @@ Use an attack map to visualize attacks
                               ▼
         ┌────────────────────────────────────┐
         │ Threat Intelligence Visualization  │
-        │ - KQL Queries                     |  
-        │ - Attack map Dashboard           │
+        │ - KQL Queries                      |  
+        │ - Attack map Dashboard             │
         └────────────────────────────────────┘
 
 ## Technologies Used
@@ -48,7 +49,7 @@ Microsoft Sentinel.
 
 Log Analytics Workspace.
 
-Windows.
+Windows 2025 server data center.
 
 Kusto Query Language.
 
@@ -91,6 +92,29 @@ Visualize attack distributions.
 
 ## Screenshots
 
+## Vnet
+<img width="1920" height="1080" alt="Screenshot (18)" src="https://github.com/user-attachments/assets/6434b557-155a-483d-8895-c3170ba09598" />
+
+## Virtual Machine
+<img width="1920" height="1080" alt="Virtual Machine" src="https://github.com/user-attachments/assets/c729efea-3242-42bd-9dc9-046f69c0b7e3" />
+
+  ## Resource Group
+<img width="1920" height="1080" alt="Resource Group" src="https://github.com/user-attachments/assets/408fdc8c-6bdc-4623-91dd-e51e6c70c8fb" />
+
+## WAtchlist
+<img width="1920" height="1080" alt="Watchlist" src="https://github.com/user-attachments/assets/111217cf-6dec-4a92-a8a7-2b7eaa00906c" />
+
+## Watchlist embedded in Log analytics
+<img width="1920" height="1080" alt="Watchlist embedded in log analytics" src="https://github.com/user-attachments/assets/8228e804-8fe1-4310-82bf-e17c82211a1c" />
+
+## KQL to return failed log on logs
+<img width="1920" height="1080" alt="KQL to return failed logon logs" src="https://github.com/user-attachments/assets/8c8d5f53-11ac-42d6-84b6-53c4b9da6ec5" />
+
+## KQL to return failed logon logs with location included
+<img width="1920" height="1080" alt="KQL to return Failed logon logs with location included" src="https://github.com/user-attachments/assets/67f0d1aa-3eb7-44fc-9f69-99154f571830" />
+
+## Attack Map
+<img width="1920" height="1080" alt="Attack Map" src="https://github.com/user-attachments/assets/a6305dbc-3eb4-4207-be38-4b69ab193455" />
 
 ## Key Features
 Real-time attack monitoring.
