@@ -3,13 +3,13 @@
 ## Description
 This project focuses on creating a cloud-native honeypot in Microsoft Azure with the goal of logging and analyzing traffic from potential attackers. 
 The honeypot is created using a virtual machine that is intentionally left open to the public internet to attract malicious activity. All incoming traffic and attack attempts are logged through a configured log forwarding system and the data stored in a centralized repository.
-The repository is connected to a Security Information and Event Management (SIEM) system for monitoring and hreat analysis. 
+The repository is connected to a Security Information and Event Management (SIEM) system for monitoring and threat analysis. 
 Finally, the project includes development of an attack visualization map that provides a geographic representation of the attacks.
 
 ## Objectives
 Deploy a cloud-based honeypot in Azure
 Capture real-world attacks
-CEntralize and monitor logs in a SIEM platform (Sentinel)
+Centralize and monitor logs in a SIEM platform (Sentinel)
 Analyze attack data using KQL queries
 Use an attack map to visualize attacks
 
@@ -44,7 +44,7 @@ Use an attack map to visualize attacks
 ## Technologies Used
 Microsoft Azure.
 
-MIcrosoft Sentinel.
+Microsoft Sentinel.
 
 Log Analytics Workspace.
 
@@ -73,7 +73,7 @@ Enable remote access exposure.
 Confirm failed login attempts.
 
 ## Sentinel Setup
-CreateLog Analytics Workspace.
+Create Log Analytics Workspace.
 
 Enable Microsoft Sentinel.
 
@@ -82,7 +82,7 @@ Connect virtual machine.
 ## Data analysis
 Use KQL to analyze data.
 
-## Attcak map visualization
+## Attack map visualization
 Import geoip database.
 
 Map attacker IP addresses to locations.
@@ -93,7 +93,7 @@ Visualize attack distributions.
 
 
 ## Key Features
-REal-time attack monitoring.
+Real-time attack monitoring.
 
 Cloud-native SIEM.
 
@@ -105,5 +105,5 @@ Global threat visualization.
 This environment is intentionally insecure and should not be used in real-life production systems. It is strictly for educational purposes.
 
 ## Acknowledgements
-Inspired by Azure SOC lab cybersecurity training environments and microsoft Sentinel hands-on labs.
+Inspired by Azure SOC lab cybersecurity training environments and Microsoft Sentinel hands-on labs.
 
