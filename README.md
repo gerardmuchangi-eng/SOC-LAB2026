@@ -1,8 +1,8 @@
 # SOC-LAB2026
 
-## Decription
+## Description
 This project focuses on creating a cloud-native honeypot in Microsoft Azure with the goal of logging and analyzing traffic from potential attackers. 
-The honeypot is created using a virtual machine that is intentionally left open to the public internet to attact malicious activity. All incoming traffic and attack attempts are logged through a configured log forwarding system and the data stored in a centralized repository.
+The honeypot is created using a virtual machine that is intentionally left open to the public internet to attract malicious activity. All incoming traffic and attack attempts are logged through a configured log forwarding system and the data stored in a centralized repository.
 The repository is connected to a Security Information and Event Management (SIEM) system for monitoring and hreat analysis. 
 Finally, the project includes development of an attack visualization map that provides a geographic representation of the attacks.
 
@@ -71,6 +71,7 @@ Enable remote access exposure.
 
 ## Log Validation
 Confirm failed login attempts.
+
 ## Sentinel Setup
 CreateLog Analytics Workspace.
 
@@ -80,9 +81,29 @@ Connect virtual machine.
 
 ## Data analysis
 Use KQL to analyze data.
+
 ## Attcak map visualization
 Import geoip database.
 
 Map attacker IP addresses to locations.
 
 Visualize attack distributions.
+
+## Screenshots
+
+
+## Key Features
+REal-time attack monitoring.
+
+Cloud-native SIEM.
+
+Hands-on SOC workflow simulation.
+
+Global threat visualization.
+
+## Security Warning!!
+This environment is intentionally insecure and should not be used in real-life production systems. It is strictly for educational purposes.
+
+## Acknowledgements
+Inspired by Azure SOC lab cybersecurity training environments and microsoft Sentinel hands-on labs.
+
